@@ -7,10 +7,6 @@
 body{
     font-family: "Poppins", sans-serif;
 }
-header .row {
-	margin-top: 40px;
-}
-
 
 .navbar {
 	display: flex;
@@ -92,9 +88,11 @@ a {
 }
 
 .row {
+	margin-top: 80px;
 	padding: 0px 30px 0px 30px;
 	display: flex;
 	align-items: center;
+	justify-content: space-around;
 	flex-wrap: wrap;
 }
 
@@ -119,8 +117,10 @@ a {
 	color: #fff; 
 	background-color: #2DC0D0;
 	padding: 8px 30px;
-	margin: 30px 0;
+	margin: 30px auto;
 	border-radius: 30px;
+	border: 0;
+	outline: none;
 	transition: background .5s;
 }
 
