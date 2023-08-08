@@ -1,6 +1,8 @@
 # YarnFactory Website
 `YarnFactory` website is a learning purpose sketch website.
 
+![](screenshots/welcome.png)
+
 ## Aim
     - Exercise Html and CSS
 
