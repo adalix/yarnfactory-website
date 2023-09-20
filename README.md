@@ -8,10 +8,10 @@
 ## Vanilla Branch
 ![](screenshots/welcome.png)
 
-## Aim
+### Aim
     - Exercise Html and CSS
 
-## Learning/Experimenting
+### Learning/Experimenting
     - Structing html tags and styling
     - CSS Styling, Positioning, Flex etc.
     - Navigation bar and styling
@@ -19,9 +19,9 @@
 ## Main Branch
 ![TBD]()
 
-## Aim
+### Aim
     - Learn CSS styling via Tailwind CSS
     - Learn development of VueJS framework
 
-## Learning/Experimenting
+### Learning/Experimenting
     - TBD
