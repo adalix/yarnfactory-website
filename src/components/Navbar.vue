@@ -9,35 +9,48 @@
 		<div class="flex items-center justify-evenly mx-12">
 			<ul class="hidden sm:hidden md:hidden lg:block">
 				<li class="inline-block mr-5 font-medium">
-					<a href="" class="">Ana Sayfa</a>
-				</li>
-				<li class="inline-block mr-5 font-medium">
-					<a href="">Ürünler</a>
-				</li>
-				<li class="inline-block mr-5 font-medium">
-					<a href="" class="px-4 py-2 bg-pink-500 text-white rounded-3xl"
-						>Modeller</a
+					<RouterLink
+						to="/"
+						class="px-4 py-2 hover:bg-pink-500 hover:text-white hover:rounded-3xl"
+						>Ana Sayfa</RouterLink
 					>
 				</li>
 				<li class="inline-block mr-5 font-medium">
-					<a href="">Stok</a>
+					<RouterLink
+						to="/product"
+						class="px-4 py-2 hover:bg-pink-500 hover:text-white hover:rounded-3xl"
+						>Ürünler</RouterLink
+					>
+				</li>
+				<li class="inline-block mr-5 font-medium">
+					<RouterLink
+						to="/"
+						class="px-4 py-2 hover:bg-pink-500 hover:text-white hover:rounded-3xl"
+						>Modeller</RouterLink
+					>
+				</li>
+				<li class="inline-block mr-5 font-medium">
+					<RouterLink
+						to="/product"
+						class="px-4 py-2 hover:bg-pink-500 hover:text-white hover:rounded-3xl"
+						>Stok</RouterLink
+					>
 				</li>
 			</ul>
-			<UserCircleIcon class="inline-block mr-5 w-7 h-7 text-pink-500 hover:text-pink-700" />
-			<Bars3Icon class="inline-block w-7 h-7 hover:text-pink-500 lg:hidden" />
+			<UserIcon class="inline-block mr-5 w-6 h-6 text-pink-500 fill-pink-500" />
+			<Bars3Icon class="inline-block w-6 h-6 hover:text-pink-500 lg:hidden" />
 		</div>
 	</nav>
 </template>
 
 <script>
-import { UserCircleIcon } from "@heroicons/vue/24/outline";
+import { UserIcon } from "@heroicons/vue/24/outline";
 import { Bars3Icon } from "@heroicons/vue/24/outline";
+import { RouterLink } from "vue-router";
 export default {
-    components:{UserCircleIcon, Bars3Icon},
+	components: { UserIcon, Bars3Icon },
 	setup() {
-
-		// const isActive = ref(false);
-		return {UserCircleIcon, Bars3Icon};
+		return { UserIcon, Bars3Icon };
 	},
 };
 </script>
